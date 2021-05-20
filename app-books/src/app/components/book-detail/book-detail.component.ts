@@ -24,4 +24,11 @@ export class BookDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addrate(): void {
+    this.book.score += 0.1;
+  }
+  downrate(): void {
+    this.book.score -= 0.1;
+  }
+
 }
