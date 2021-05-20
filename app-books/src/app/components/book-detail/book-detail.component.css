@@ -1,0 +1,33 @@
+h3{
+    background-color: blue;
+    margin-top: 0;
+}
+
+img {
+    width: 50%;
+}
+
+div.description{
+    width: 45%;
+    float: right;
+}
+
+div.score, div.author {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+div.score:hover {
+    cursor: pointer;
+}
+
+div.score fa-icon {
+    color: chartreuse;
+}
+
+:host {
+    width: 300px;
+    display: block;
+    box-shadow: 10px 5px 5px gold;
+}
